@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <script>
+        </script>
+        <style>
+            h1 {
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-text-fill-color: transparent;
+  font-size: 100px; 
+  text-align: center;
+}
+    </style>
+    </head>
+    <body onload="ft(123)">
+        <h1 id="tx"></h1>
+    </body>
+</html>
+<script language="javascript">
+       var x=[1,2,3,4,3,5,1,6,7,8,9,10,2,7];
+       var i =0;
+        window.onload = function(e) {
+            while(x[i] <= x.length){
+                if(x[i]==10){
+                    x[i]=1;
+                }else if(x[i]==1){
+                    x[i]=10;
+                }
+                else{
+
+                }
+            switch (x[i]) {
+                case 1:
+                    document.getElementById('tx').innerHTML += "B";
+                    break;
+                case 2:
+                    document.getElementById('tx').innerHTML += "A";
+                    break;
+                case 3:
+                    document.getElementById('tx').innerHTML += "I";
+                    break;
+                case 4:
+                    document.getElementById('tx').innerHTML += "D";
+                    break;
+                case 5:
+                    document.getElementById('tx').innerHTML += "T";
+                    break;
+                case 6:
+                    document.getElementById('tx').innerHTML += "O";
+                    break;
+                case 7:
+                    document.getElementById('tx').innerHTML += "N";
+                    break;
+                case 8:
+                    document.getElementById('tx').innerHTML += "M";
+                    break;
+                case 9:
+                    document.getElementById('tx').innerHTML += "E";
+                    break;
+                case 10:
+                    document.getElementById('tx').innerHTML += "C";
+                    break;
+            }
+            i++
+}
+
+            };
+</script>

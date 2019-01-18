@@ -45,8 +45,6 @@
 			</p>
 			</div>
 	</div>
-	<div class="footer" style="width: 100%; background-color: #262626; padding: 10px 0;margin: 0; color: white;text-align: center;">
-	 	<a href="../" style=" text-decoration: none;">Trở về trang trước</a>
-	 </div>
+	<?php include('footer.php') ?>
 </body>
 </html>
